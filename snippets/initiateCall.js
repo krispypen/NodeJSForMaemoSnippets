@@ -9,7 +9,7 @@ bus.invoke({
     destination: 'com.nokia.csd.Call',
     'interface': 'com.nokia.csd.Call',
     member: 'CreateWith',                                                                                                                 
-    signature: 'su',   // The signature describes the type of the body array elements see http://dbus.freedesktop.org/doc/dbus-specificati
+    signature: 'su',   // The signature describes the type of the body array elements see http://dbus.freedesktop.org/doc/dbus-specification.html#message-protocol-signatures
     body: [phoneNumber, 0]                                                                                                                
 }, function(err, res) {                                                                                                                   
     console.log(res);                                                                                                                     
