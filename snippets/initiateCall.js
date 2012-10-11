@@ -1,3 +1,7 @@
+/*
+ * Before running this you must install dbus-native by running "npm install dbus-native"
+*/
+
 var dbus = require('dbus-native'); //https://github.com/sidorares/node-dbus                                                               
 var bus = dbus.systemBus();                                                                                                               
                                                                                                                                           
