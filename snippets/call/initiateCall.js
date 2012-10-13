@@ -16,4 +16,4 @@ bus.invoke({
     console.log(res);
   });                                                                                                                                       
                                                                                                                                       
-console.log("Calling " + phonenumber + " ...");
+console.log("Calling " + phoneNumber + " ...");
